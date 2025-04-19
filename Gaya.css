@@ -1,0 +1,106 @@
+*, html , body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana,Arial,Sans-Serif;
+}
+
+body{
+  font: 16px/26px Verdana,Arial,Sans-Serif;
+  background-color: gray;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 7px 15px 0 rgba(104, 121, 151, 1);
+}
+
+.header {
+  padding: 20px;
+}
+
+.header .judul {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+.header .active {
+  background-color: #334D56;
+  color: #B1E2F2;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.header>ul>li>a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #10171B;
+  font-weight: 700;
+}
+
+.header>ul>li>a:hover{
+  color: #8881D1;
+  transition: all .5s ease-in-out;
+  font-size: 20px;
+}
+
+.conta {
+  display: flex;
+  background-color: #86C7E5;
+  border-bottom: 1px solid black;
+}
+
+.jumdul {
+  color: white;
+  font-weight: 900;
+}
+
+.gambar {
+  height: 400px;
+  background-image: url('1392370_720.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+  border-bottom: 3px solid #86C7E5;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.penulis a {
+  text-decoration: none;
+}
+
+.penulis a:hover {
+  text-decoration: none;
+  font-size: 16px;
+  color: #8881D1;
+  transition: all .5s ease-in-out;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+}
+
+.footer .copy {
+  color: white;
+  text-align: center;
+}
